@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "navy-knit",
+      "machine_wash": true,
+      "wash_max_c": 30,
+      "cycle": "gentle",
+      "color_group": "dark",
+      "dry": "flat"
+    },
+    {
+      "id": "black-knit",
+      "machine_wash": true,
+      "wash_max_c": 40,
+      "cycle": "gentle",
+      "color_group": "dark",
+      "dry": "flat"
+    },
+    {
+      "id": "white-tee",
+      "machine_wash": true,
+      "wash_max_c": 40,
+      "cycle": "normal",
+      "color_group": "light",
+      "dry": "tumble-low"
+    },
+    {
+      "id": "silk-scarf",
+      "machine_wash": false
+    },
+    {
+      "id": "untagged",
+      "machine_wash": true,
+      "cycle": "normal",
+      "color_group": "light"
+    }
+  ]
+}

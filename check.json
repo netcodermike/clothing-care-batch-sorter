@@ -1,0 +1,41 @@
+{
+  "command": [
+    "node",
+    "app.mjs"
+  ],
+  "expected": {
+    "batches": [
+      {
+        "cycle": "gentle",
+        "color_group": "dark",
+        "dry": "flat",
+        "max_temperature_c": 30,
+        "items": [
+          "navy-knit",
+          "black-knit"
+        ]
+      },
+      {
+        "cycle": "normal",
+        "color_group": "light",
+        "dry": "tumble-low",
+        "max_temperature_c": 40,
+        "items": [
+          "white-tee"
+        ]
+      }
+    ],
+    "separate": [
+      "silk-scarf"
+    ],
+    "review": [
+      {
+        "id": "untagged",
+        "missing": [
+          "wash_max_c",
+          "dry"
+        ]
+      }
+    ]
+  }
+}
